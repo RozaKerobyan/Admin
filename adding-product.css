@@ -1,0 +1,60 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+h1 {
+     position: absolute;
+     top: 15px;
+     left: 20px;
+}
+
+.save-cancel-btns {
+     display: flex;
+     justify-content: flex-end;
+     align-items: end;
+     flex-flow: row nowrap;
+}
+
+.save-cancel-btns > button {
+     margin-top: 20px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+     background: red;
+     border: none;
+     color: #fff;
+}
+
+#save-btn {
+     width: 70px;
+     height: 30px;
+}
+
+#cancel-btn {
+     width: 80px;
+     height: 30px;
+}
+
+.input-style {
+     margin-left: 20px;
+     margin-top: 20px;
+     font-size: 20px;
+}
+
+.input-style > #name {
+     margin-left: 10px;
+}
+
+.input-style > input {
+     margin-left: 15px;
+     border: 1px solid black;
+}
+
+
+
+
+
+
+
+
